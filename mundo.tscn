@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://c16p3ba13yjps"]
+
+[ext_resource type="PackedScene" uid="uid://c8mtua84n3m1h" path="res://personaje.tscn" id="1_6ba58"]
+
+[node name="Node2D" type="Node2D" unique_id=1114104305]
+
+[node name="Parallax2D" type="Parallax2D" parent="." unique_id=1065346148]
+
+[node name="TextureRect" type="TextureRect" parent="Parallax2D" unique_id=720437564]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=5913571]
+
+[node name="CharacterBody2D" parent="." unique_id=1310725287 instance=ExtResource("1_6ba58")]
