@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://161qujhr1xsd"]
+
+[node name="Node2D" type="Node2D" unique_id=1018362095]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=977354227]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Button" type="Button" parent="." unique_id=1636484184]
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Button2" type="Button" parent="." unique_id=650059120]
+offset_right = 8.0
+offset_bottom = 8.0
