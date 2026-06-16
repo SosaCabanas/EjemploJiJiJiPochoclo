@@ -13,3 +13,10 @@ offset_bottom = 40.0
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=5913571]
 
 [node name="CharacterBody2D" parent="." unique_id=1310725287 instance=ExtResource("1_6ba58")]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1871985947]
+
+[node name="Label" type="Label" parent="CanvasLayer" unique_id=1580032073]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "kosihefshoefihojifsjkllgsijlgs"
